@@ -16,3 +16,11 @@ async function addNewContact() {
 
   contactList.push(addNewContact);
 }
+
+function showContactList() {
+  contactList
+    .map(({ id, firstName, lastName }) => {
+      return `#${id} ${firstName} ${lastName}`;
+    })
+    .join("\n");
+}
