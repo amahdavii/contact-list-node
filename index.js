@@ -24,3 +24,7 @@ function showContactList() {
     })
     .join("\n");
 }
+
+function quite() {
+  rl.close();
+}
