@@ -14,7 +14,7 @@ async function addNewContact() {
     lastName,
   };
 
-  contactList.push(addNewContact);
+  contactList.push(newContact);
 }
 
 function showContactList() {
