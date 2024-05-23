@@ -4,7 +4,7 @@
   "description": "Simple contact list app with node.js and express.js",
   "main": "index.js",
   "scripts": {
-    "dev": "index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "type": "module",
