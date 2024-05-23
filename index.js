@@ -22,7 +22,7 @@ async function addNewContact() {
 function showContactList() {
   contactList
     .map(({ id, firstName, lastName }) => {
-      return `#${id} ${firstName} ${lastName}`;
+      console.log(`#${id} ${firstName} ${lastName}`);
     })
     .join("\n");
 }
