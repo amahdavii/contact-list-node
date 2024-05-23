@@ -1,0 +1,12 @@
+{
+  "name": "contact-list",
+  "version": "1.0.0",
+  "description": "Simple contact list app with node.js and express.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "index.js"
+  },
+  "keywords": [],
+  "author": "Arian Mahdavi",
+  "license": "ISC"
+}
